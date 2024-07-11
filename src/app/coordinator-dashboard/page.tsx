@@ -69,7 +69,7 @@ function CoordinatorDashBoardContent() {
               <UserPlus size={48} color="#16a34a" strokeWidth={1.75} />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-semibold text-xl">Add members</p>
+              <p className="font-semibold text-xl">Invite uploader</p>
               <DialogAddUser />
             </div>
           </div>
