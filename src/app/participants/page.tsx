@@ -47,7 +47,6 @@ type Corp = {
 }
 
 const Participant = () => {
-    const apiURL = 'https://api-staging.greencleanearth.org/api/v1';
   const [participants, setParticipants] = useState<Participant[]>([]);
   const [countries, setCountries] = useState<Country[]>([]);
   const [states, setStates] = useState<State[]>([]);

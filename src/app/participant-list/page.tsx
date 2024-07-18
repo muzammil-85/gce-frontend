@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import ParticipantCard from "./card";
 import Navigationbar from "@/components/navigationBar";
 import Footer from "@/components/footer";
-// import { apiURL } from "@/app/requestsapi/request";
+import { apiURL } from "@/app/requestsapi/request";
 import Cookies from "js-cookie";
 import { imageURL } from "../requestsapi/request";
 import { Earth } from "lucide-react";
@@ -22,7 +22,6 @@ type ParticipantCardProps = {
 }
 
 const ParticipantList: React.FC = () => {
-  const apiURL = 'https://api-staging.greencleanearth.org/api/v1';
   const [participants, setParticipants] = useState<Participant[]>([]);
 
   useEffect(() => {
