@@ -189,6 +189,7 @@ function UserRegisterForm() {
       districtId           : districts.find((item) => item.dis_name === values.district)?.dis_id.toString(),
       userPhoto            : '',
       wardNo               : parseInt(values.ward) || 0,
+      lsgd                 : lsgd.find((item) => item.lsg_name === values.lsg)?.lsg_id,
     };
 
     try {
