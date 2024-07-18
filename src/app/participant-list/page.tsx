@@ -63,9 +63,9 @@ const ParticipantList: React.FC = () => {
        Sorting Page
     </button>
     </a>
-    <button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
+    {/* <button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
          District List
-    </button>
+    </button> */}
      <button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
        Old participants
      </button>
