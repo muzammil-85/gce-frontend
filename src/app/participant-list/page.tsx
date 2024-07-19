@@ -65,9 +65,10 @@ const ParticipantList: React.FC = () => {
     {/* <button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
          District List
     </button> */}
-     <button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
+     <a href="https://greencleanearth.org/participants/1"><button className="text-white text-sm md:text-base py-2 px-3 bg-[#3C6E1F] rounded-2xl shadow-xl md:py-3 md:px-4">
        Old participants
-     </button>
+     </button></a>
+     
 </div>
 
 
