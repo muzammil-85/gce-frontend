@@ -102,7 +102,7 @@ const ParticipantList: React.FC = () => {
                    <div className="text-sm">{participant.up_name}</div>
                 </div>
                 <div className="flex ml-2 mt-2 gap-2">
-                   <div className="text-sm pl-5 mb-2">Institution name: </div>
+                   <div className="text-sm pl-5 mb-2">Group name: </div>
                    <div className="text-sm">{participant.gp_name}</div>
                 </div>
               </div>
