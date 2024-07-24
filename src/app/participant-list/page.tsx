@@ -15,6 +15,7 @@ type Participant = {
   up_date: string;
   up_planter: string;
   up_name: string;
+  gp_name: string;
 }
 
 type ParticipantCardProps = {
@@ -99,6 +100,10 @@ const ParticipantList: React.FC = () => {
                 <div className="flex ml-2 mt-2 gap-2">
                    <div className="text-sm pl-5 mb-2">Uploader name: </div>
                    <div className="text-sm">{participant.up_name}</div>
+                </div>
+                <div className="flex ml-2 mt-2 gap-2">
+                   <div className="text-sm pl-5 mb-2">Institution name: </div>
+                   <div className="text-sm">{participant.gp_name}</div>
                 </div>
               </div>
             </div>
